@@ -1,0 +1,126 @@
+🧠 CORE LANGUAGES (FOUNDATION)
+
+Learn first — deeply
+
+Python → backend, AI/ML, automation
+
+JavaScript → frontend + backend logic
+
+👉 These two power everything else.
+
+🎨 FRONTEND (USER INTERFACE)
+
+Learn after JS basics
+
+HTML5
+
+CSS3
+
+JavaScript (Advanced)
+
+React (single framework is enough)
+
+No Angular. No Vue. React dominates hiring.
+
+⚙️ BACKEND (APIs & BUSINESS LOGIC)
+
+Cloud-native, scalable
+
+Flask (primary backend)
+
+FastAPI (upgrade after Flask)
+
+Node.js + Express (secondary backend)
+
+Flask teaches architecture. FastAPI gives speed & scale.
+
+🗄️ DATABASES (DATA LAYER)
+Relational (MANDATORY)
+
+PostgreSQL (primary)
+
+MySQL (secondary – optional)
+
+NoSQL (ONLY ONE)
+
+MongoDB
+
+Postgres + MongoDB covers 90% of industry use cases.
+
+🔐 SECURITY (NON-NEGOTIABLE)
+
+Learn inside projects, not separately.
+
+Authentication (JWT)
+
+Authorization (RBAC)
+
+Password hashing
+
+Environment variables
+
+Basic OWASP Top 10
+
+🧪 TESTING & QUALITY
+
+Learn gradually.
+
+Unit testing (backend)
+
+API testing
+
+Basic frontend tests
+
+Linting & formatting
+
+☁️ CLOUD & DEVOPS (HIGH INCOME LAYER)
+
+Linux fundamentals
+
+Git & GitHub (advanced workflows)
+
+Docker
+
+CI/CD
+
+AWS or GCP (choose ONE later)
+
+Nginx
+
+Deployment & monitoring
+
+🤖 AI / ML (VALUE MULTIPLIER)
+
+NumPy
+
+Pandas
+
+ML basics
+
+Model inference APIs
+
+LLM integration (OpenAI / similar)
+
+AI as microservice
+
+AI is integrated, not standalone.
+
+🧩 ARCHITECTURE & SYSTEM THINKING
+
+This is what makes you senior-level.
+
+Requirement analysis
+
+System design
+
+API design
+
+Monolith → microservices
+
+Scalability
+
+Fault tolerance
+
+Performance tuning
+
+Clear documentation
