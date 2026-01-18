@@ -19,8 +19,9 @@ let e = num -1;
 console.log(e);
 */
 
-let u1=user;
+//let u1=user;
 
-u1.age = 30;
+//u1.age = 30;
 
-console.log(u1.age);
+//console.log(u1.age);
+
