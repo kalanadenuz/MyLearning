@@ -4,5 +4,45 @@
         <title>Form</title>
     </head>
     <body>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+            <labale for="username">username:</labale>
+            <input type="text" id="username" placeholder="Enter your name" minlength="6" maxlength="15"></br>
+            <lable for ="password">password:</lable>
+            <input type="password" id="password" placeholder="Enter a 8 character password" required minlength="8"></br>
+            <lable for="email">email:</lable>
+            <input type="email" id="email" required placeholder="please enter your email"></br>
+            <lable for="telephone">Telephone :</lable>
+            <input type="tel" pattern="[0-9]{10}"></br>
+            <lable for ="bday">Birthday:</lable>
+            <input type="date" id="bday"> </br>
+            <lable for ="quantity">Quantity:</lable>
+            <input type="number"id="quantity" min="0" max="99" value="1"><br>
+            <lable for="titile">Title:</lable>
+            <lable for="mr">Mr.</lable>
+            <input type="radio" id="mr" value="Mr." name="title">
+            <lable for="mrs">Mrs.</lable>
+            <input type="radio" id="mrs" value="Mrs."name="title">
+            <lable for="ms">Ms.</lable>
+            <input type="radio" id="ms" value="Ms."name="title">
+            <lable for="dr">Dr.</lable>
+            <input type="radio" id="dr" value="Dr."name="title">
+            <lable for="rev">Rev.</lable>
+            <input type="radio" id="rev" value="Rev."name="title"><br>
+            <lable for="payment">Payment Type: </lable>
+            <select id="payment">
+                <option value="visa">Visa Card</option>
+                <option value="master">Master Card</option>
+                <option value="gift">Gift Card</option>
+            </select><br>
+            <lable for="subscribe">Subscribe </lable>
+            <input type="checkbox" id="subscribe"><br>
+            <lable for="comment">Comment: </lable>
+            <textarea rows="3" cols="25">
+            </textarea><br>
+            <lable for="Uploadfile">ID Image: </lable>
+            <input type="file" id="Uploadfile" accept="image/png,image/jpeg"><br>
+            <input type="reset"> </br> 
+            <input type ="submit">
+        </form>
     </body>
 </htlml>
