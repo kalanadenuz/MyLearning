@@ -1,11 +1,22 @@
+
+@font-face{ 
+    src:url(fonts/DMSerifText-Italic.ttf);
+    font-family: DMSi;
+}
+
+@font-face{
+    src:url(fonts/DMSerifText-Regular.ttf);
+    font-family:DMSr;
+}
 h1{
     
-    font-family:arial;
+    font-family:DMSr;
     font: size 15px;
     color:blueviolet;
 }
 
 p{
-    font-family: "DM Serif Text";
+    font-family: DMSi;
+    color:aquamarine;
 
 }
