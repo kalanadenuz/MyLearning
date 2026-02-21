@@ -1,0 +1,26 @@
+body{
+    margin-left:50px;
+}
+.box1{
+     border: 5px solid;
+    width:50px;
+    height:100px;
+    background-color: red;
+    margin-left:auto;
+    margin-bottom:10px;
+
+}
+.box2{
+    border: 5px solid;
+    margin-left:50px;
+    width:50px;
+    height:100px;
+    background-color: green;
+
+}
+p{
+    margin:0px;
+    padding-left: 10px;
+    padding-top:20px;
+    padding-right:10px;
+}
