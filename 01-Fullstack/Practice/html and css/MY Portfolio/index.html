@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Web Page</title>
+        <style>
+            body{
+                background-color:black;
+                color:white;
+                text-align:center;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+            }
+            ul{
+                text-align:left;
+            }
+            h1{
+                color:cyan;
+            }
+            a{
+                color:yellow;
+            }
+            .box{
+                border: 3px solid white;
+                padding:20px;
+                margin:20px;
+                
+            }
+        </style>
+        <script>
+            function showMessage(){
+                alert("You are becoming a developer")
+            }
+            function changeText(){
+                   document.getElementById("title").innerText = "Text";
+                
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p> I'm starting my new journey!</p>
+
+        <h1> Kalana Denuz -  Full Stack Developer</h1>
+        <p> I will become high income developer</p>
+
+        <h2> My Goals</h2>
+        <ul type="square" >
+            <li>
+                Earn 8300 USD per month asap.
+            </li>
+            <li>
+                Become top 1% software engineer.
+            </li>
+        </ul>
+        <a href="https://github.com">My Github</a>
+        <br>
+        <img scr="img.img" alt="just img">
+
+        <div class="box">
+            <p>This is a box.</p>
+        </div>
+        <button onclick="showMessage()">Click Me</button>
+        <h1 id="title">Original Text</h1>
+        <button onclick="changeText()">Change Text</button>
+    </body>
+</html>
